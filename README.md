@@ -1,6 +1,6 @@
 # omnireview/trustpilot
 
-**Trustpilot** for [glitchr/omnireview](https://github.com/glitchr-studio/omnireview): a business
+**Trustpilot** for [omniscient/omnireview](https://github.com/glitchr-studio/omnireview): a business
 unit's TrustScore, its number of reviews, its reviews and the links to its profile and to write
 one; with a business user's access, replying to a review and inviting a customer to write one.
 

@@ -11,7 +11,7 @@ order: 1
 composer require omnireview/trustpilot
 ```
 
-PHP 8.2 or later, `glitchr/omnireview` and `symfony/http-client`. A Trustpilot application (its
+PHP 8.2 or later, `omniscient/omnireview` and `symfony/http-client`. A Trustpilot application (its
 API key; its secret and a business user for replying and inviting) - the APIs come with
 Trustpilot's paid plans.
 
