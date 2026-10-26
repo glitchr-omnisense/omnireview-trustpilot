@@ -8,7 +8,7 @@
         "trustscore",
         "omnireview"
     ],
-    "homepage": "https://github.com/glitchr-studio/omnireview-trustpilot",
+    "homepage": "https://github.com/glitchr-omnisense/omnireview-trustpilot",
     "license": "MIT",
     "authors": [
         {
@@ -18,7 +18,7 @@
     ],
     "require": {
         "php": ">=8.2",
-        "omniscient/omnireview": "^1.0@dev",
+        "omnisense/omnireview": "^1.0@dev",
         "symfony/http-client": "^6.4|^7.0|^8.0"
     },
     "require-dev": {
