@@ -42,17 +42,13 @@ installed.
 | Option | Type | Default | Required | |
 |---|---|---|---|---|
 | `api_key` | string | - | yes | sent as the `apikey` header, and the client id of the token |
-| `locale` | string | `fr-FR` | no | the `locale` of `/web-links`: the profile's and the write link's language |
+| `locale` | string | `fr-FR` | no | the `locale` of `/web-links`: the profile's and the write link's language; an invitation is sent in its own `Invitation::$locale` (the customer's language, `fr-FR` by default), never this option |
 | `api_secret` | string | `null` | for reply and invite | |
 | `business_user_id` | string | `null` | for reply and invite | |
 | `template_id` | string | `null` | no | the invitation's `serviceReviewInvitation.templateId` |
 | `reply_to` | string | `null` | no | the invitation's `replyTo` |
 | `sender_name` | string | `null` | no | the invitation's `senderName` |
 | `sender_email` | string | `null` | no | the invitation's `senderEmail` |
-
-> [!WARNING]
-> Known defect: the factory's docblock says `locale` is also the invitations' locale, where
-> `invite()` sends `Invitation::$locale` (default `fr-FR`) and never this option.
 
 `Place` fields read: `id` (the business unit ID). `Invitation` fields: all of them
 ([below](#behaviour)).

@@ -13,7 +13,7 @@ use Symfony\Contracts\HttpClient\HttpClientInterface;
  *
  *   options:
  *     api_key: '%env(TRUSTPILOT_API_KEY)%'           # required: the TrustScore, the reviews, the links
- *     locale: fr-FR                                  # the profile's links, the invitations
+ *     locale: fr-FR                                  # the profile's links (/web-links); an invitation's is its own Invitation::$locale
  *     # replying and inviting: the business user's token
  *     api_secret: '%env(default::TRUSTPILOT_API_SECRET)%'
  *     business_user_id: '%env(default::TRUSTPILOT_BUSINESS_USER_ID)%'
